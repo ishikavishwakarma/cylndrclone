@@ -1,0 +1,252 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/* #main{
+    overflow: hidden;
+} */
+.page{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+#page1{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: #000;
+}
+#page1 #nav{
+    height: 25vh;
+    width: 100%;
+    padding: 2vw 1.9vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+   /* align-items: center; */
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    /* background-color: red; */
+    background-color: black;
+}
+#nav h5{
+    width: 100%;
+    height: 8vh;
+    /* background-color: green; */
+    font-size: 1.02vw;
+    font-family: gilroy;
+    color: #fff;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+#page1 img{
+    color: #fff;
+    position: absolute;
+   height: 42vh;
+   width: 65vw;
+ -webkit-transform: translate(25%,-55%);
+     -ms-transform: translate(25%,-55%);
+         transform: translate(25%,-55%);
+}
+#video{
+    height: 200vh;
+    width: 100%;
+    /* background-color: yellow; */
+}
+#video video{
+    width: 100vw;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    /* object-position: center; */
+}
+#page1 #bnav{
+    height: 7vh;
+    width: 100%;
+    /* background-color: #fff; */
+    position: absolute;
+    z-index: 999;
+    top: 38%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 2vw;
+}
+#bnav h2{
+    font-size: 1.7vw;
+    font-family: gilroy;
+    color: #fff;
+}
+#page1 #lnav{
+    height: 7vh;
+    width: 100%;
+    /* background-color: #fff; */
+    position: absolute;
+    z-index: 999;
+    top: 73%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 2vw;
+}
+#lnav #last h5{
+     font-family: gilroy;
+     font-size: 1.3vw;
+     color: #fff;
+     font-weight: 400;
+}
+#lnav #last h5:nth-child(1){
+    color: #00FF00;
+}
+#lnav a span{
+    height: 3.5vw;
+    width: 3.5vw;
+    background-color: #00FF00;
+    position: absolute;
+    top: -1%;
+    border-radius: 50%;
+}
+#page1>h2{
+    color: #fff;
+    position: absolute;
+    bottom: -8%;
+    z-index: 999;
+    font-size: 2.9vw;
+    left: 11%;
+    font-family: gilroy;
+}
+.c{
+    height: 1vw;
+    width: 1vw;
+    background-color: #00FF00;
+    position: absolute; 
+    border-radius: 50%;
+    top: 8%;
+    left: 12%;
+    
+}
+.c1{
+    color: #00FF00;
+/* position: absolute; */
+
+}
+#page2{
+    height: 150vh;
+    background-color: #000;
+    position: relative;
+}
+#page2 #photo{
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+#page2 #photo::-webkit-scrollbar{
+    display: none;
+}
+#photo #imgdiv{
+    min-height: 70vh;
+    /* background-color: #fff; */
+    position: absolute;
+    left: -10%;
+    top: 35%;
+
+}
+#imgdiv>img{
+    height: 83vh;
+    width: 28vw;
+    /* margin: 10vw 5vw; */
+  border-radius: 1.5vw;
+    margin-right: 17vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    opacity: .2;
+}
+#page2>h2{
+    color: #fff;
+    position: absolute;
+    bottom: -9%;
+    z-index: 999;
+    font-size: 2.9vw;
+    left: 17%;
+    font-family: gilroy;
+}
+#page2>h2>#s3{
+    left: 13%;
+    
+}
+#page3{
+    height: 300vh;
+    width: 100vw;
+    position: relative;
+    /* background-color: red; */
+}
+#page3>h2{
+    color: #fff;
+    position: absolute;
+    top: 13%;
+    z-index: 999;
+    font-size: 2.8vw;
+    left: 47%;
+    font-family: gilroy;
+}
+#page3>h2>#s5{
+    left: 21%; 
+}
+#page3 h3{
+    font-size: 14vw;
+    font-weight: 10;
+    color: #fff;
+    position: absolute;
+}
+#page3 #h1{
+    top: 35%;
+    left: 18%;
+}
+#page3 #h2{
+    top: 44%;
+    left: 28%;
+
+}
+#page3 #h3{
+    top: 53%;
+    left: 5%;
+}
+#page3 #h4{
+    top: 62%;
+}
+#page3 #h5{
+    top: 71%;
+}
+#page3 #h6{
+    top: 80%;
+}
+#page3 #h7{
+    top: 89%;
+}
+
